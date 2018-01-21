@@ -1,5 +1,5 @@
 # Machine Learning Demo
-This demo showcases how machine learning can be used to predict late payments and defaults among customer. It uses the LendingClub dataset and the XGBoost library in an Anaconda Python 3.6 environment.
+This demo showcases how machine learning can be used to predict late payments and defaults among borrowers. It uses the LendingClub dataset and the XGBoost library in an Anaconda Python 3.6 environment.
 
 This demo is a personal CS50 final project.
 
