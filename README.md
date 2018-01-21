@@ -13,7 +13,7 @@ Full list of (additional) datasets for in the .\data directory:
 * https://resources.lendingclub.com/LoanStats3b.csv.zip
 * https://resources.lendingclub.com/LoanStats3c.csv.zip
 * https://resources.lendingclub.com/LoanStats3d.csv.zip
-* https://resources.lendingclub.com/LoanStats_2016Q1.csv.zip
+* https://resources.lendingclub.com/LoanStats_2016Q1.csv.zip (included in this repo)
 * https://resources.lendingclub.com/LoanStats_2016Q2.csv.zip
 * https://resources.lendingclub.com/LoanStats_2016Q3.csv.zip
 * https://resources.lendingclub.com/LoanStats_2016Q4.csv.zip
