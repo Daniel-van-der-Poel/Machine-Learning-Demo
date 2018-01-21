@@ -1,0 +1,17 @@
+booster = 'gbtree'
+objective = 'binary:logistic' 		#  change this if target is multiclass
+eval_metric = 'auc' 			#  'auc' for an imbalanced target
+n_estimators = 500 			#  higher = more possible trees, greater complexity, slower learning
+early_stopping_rounds = 30  		#  higher = more risk of overfitting, less complexity
+max_depth = 6 				#  higher = greater complexity, more risk of overfitting
+learning_rate = 0.16			#  higher = more conservative training
+min_child_weight = 3.11			#  higher = more added 'weight' needed for splits
+gamma = 0.0004 				#  higher = less bias (from groups of features)
+subsample = 1 				#  lower = smaller selection of total samples = less overfitting
+colsample_bytree = 0.95			
+max_delta_step = 5
+scale_pos_weight_factor = 0.79		#  higher = more bias toward positives
+silent = 0
+verbose = 1
+n_jobs = 8	
+tree_method = 'exact'	 		#  'exact' for CPU computation, 'gpu_exact' for GPU computation
