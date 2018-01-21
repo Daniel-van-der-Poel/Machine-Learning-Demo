@@ -1,0 +1,43 @@
+LendingClub model evaluation
+Version: 1, iteration: 1
+
+Accuracy: 99.018%, F1 score: 95.991%
+Incorrect predictions: 11.0% false positives, 89.0% false negatives
+Predicted positives: 99.1% true positives, 0.9% false positives
+Actual positives: 93.1% true positives, 6.9% false negatives
+
+Most important features:
+1: total_rec_prncp
+2: installment
+3: total_pymnt
+4: out_prncp
+5: out_prncp_inv
+6: total_pymnt_inv
+7: issue_d
+8: total_rec_int
+9: loan_amnt
+10: il_util
+
+Unimportant features: 71
+
+Dataset: 2016q1 
+
+Model parameters:
+booster: gbtree
+objective: binary:logistic
+eval_metric: auc
+n_estimators: 500
+early_stopping_rounds: 30
+max_depth: 6
+learning_rate: 0.16
+min_child_weight: 3.11
+gamma: 0.0004
+subsample: 1
+colsample_bytree: 0.95
+max_delta_step: 5
+scale_pos_weight_factor: 0.79
+silent: 0
+verbose: 1
+n_jobs: 8
+tree_method: exact
+scale_pos_weight: 5.555355450236967
