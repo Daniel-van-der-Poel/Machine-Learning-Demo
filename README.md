@@ -20,6 +20,7 @@ Direct links to the LendingClub datasets:
 * https://resources.lendingclub.com/LoanStats_2017Q1.csv.zip
 * https://resources.lendingclub.com/LoanStats_2017Q2.csv.zip
 * https://resources.lendingclub.com/LoanStats_2017Q3.csv.zip
+
 Unzip the files and copy the .csv files to the .\data directory. 
 ## 3.	Download the XGBoost repo and the latest nightly build
 * Repo: https://github.com/dmlc/xgboost
