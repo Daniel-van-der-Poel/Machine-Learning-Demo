@@ -6,7 +6,7 @@ This demo is a personal CS50 final project.
 To run the demo on a Windows 10 computer, follow the instructions below.
 
 ## 1.	Download this repo
-url: https://github.com/Daniel-van-der-Poel/LendingClub
+url: https://github.com/Daniel-van-der-Poel/Machine-Learning-Demo
 ## 2.	Download one or more datasets
 Direct links to the LendingClub datasets:
 * https://resources.lendingclub.com/LoanStats3a.csv.zip
