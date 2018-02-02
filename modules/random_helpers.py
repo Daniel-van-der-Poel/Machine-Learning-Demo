@@ -11,7 +11,7 @@ from scipy.stats import skewnorm
 """
 Define generator functions
 
-Note: generators will return a single value if size == 1, or an array of values of size > 1
+Note: generators will return a single value if size == 1, or an array of values if size > 1
 
 """
 
