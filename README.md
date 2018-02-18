@@ -47,7 +47,7 @@ conda create -n ml_1 anaconda
 activate ml_1
 ```
 
-Note: if the latest version of XGBoost requires a version of Python that’s older than the once that came with Anaconda, add ‘python=3.6’ (for example) to the conda create statement.
+Note: if the latest version of XGBoost requires a version of Python thats older than the one that came with Anaconda, add ‘python=3.6’ (for example) to the conda create statement.
 ### Add the kernel for notebooks to the environment
 ```
 python -m ipykernel install --user --name ml_1 --display-name "Python machine learning 1"
